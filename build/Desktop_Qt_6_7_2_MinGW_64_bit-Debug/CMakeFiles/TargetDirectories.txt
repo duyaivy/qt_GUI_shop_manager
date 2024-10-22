@@ -1,0 +1,9 @@
+D:/QUOCDUY/qt_pbl2/shop_manager/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/shop_manager.dir
+D:/QUOCDUY/qt_pbl2/shop_manager/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+D:/QUOCDUY/qt_pbl2/shop_manager/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+D:/QUOCDUY/qt_pbl2/shop_manager/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+D:/QUOCDUY/qt_pbl2/shop_manager/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/install.dir
+D:/QUOCDUY/qt_pbl2/shop_manager/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+D:/QUOCDUY/qt_pbl2/shop_manager/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+D:/QUOCDUY/qt_pbl2/shop_manager/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/shop_manager_autogen_timestamp_deps.dir
+D:/QUOCDUY/qt_pbl2/shop_manager/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/shop_manager_autogen.dir

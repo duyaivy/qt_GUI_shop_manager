@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/new/img">
+        <file>img/images.jpg</file>
+        <file>detail.csv</file>
+        <file>invoice.csv</file>
+        <file>product.csv</file>
+        <file>img/home (1).png</file>
+        <file>img/batman_hero_avatar_comics-512.png</file>
+        <file>img/customer.png</file>
+        <file>img/product-management.png</file>
+        <file>img/profit.png</file>
+        <file>img/team.png</file>
+        <file>img/user (1).png</file>
+        <file>img/magnifying-glass.png</file>
+        <file>img/bell.png</file>
+        <file>img/logoTest.PNG</file>
+        <file>img/logout.png</file>
+        <file>img/pencil.png</file>
+        <file>img/diskette.png</file>
+    </qresource>
+</RCC>
