@@ -17,10 +17,11 @@ public:
 
 private slots:
     void on_logOutBtn_clicked();
-
 private:
     Ui::admin *ui;
     void setGroupBtn();
+    void setGroupBtnPage();
+    void connectLabel();
 };
 
 #endif // ADMIN_H

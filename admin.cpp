@@ -1,9 +1,10 @@
 #include<qstring.h>
+#include<qbuttongroup.h>
 #include "admin.h"
 #include "ui_admin.h"
 #include"global.h"
 #include "mainwindow.h"
-#include<qbuttongroup.h>
+
 admin::admin(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::admin)
@@ -17,6 +18,7 @@ admin::admin(QWidget *parent)
     }
     // set click cho cac nut
     setGroupBtn();
+    setGroupBtnPage();
 
 
 }
@@ -27,7 +29,7 @@ admin::~admin()
 }
 void admin::setGroupBtn(){
     QButtonGroup* buttonGroup = new QButtonGroup(this);
-    buttonGroup->addButton(ui->homeBtn, 0); // Giả sử bạn có các nút: homeButton, employeeButton, customerButton
+    buttonGroup->addButton(ui->homeBtn, 0); // gia su co cac nut: homeButton, employeeButton, customerButton
     buttonGroup->addButton(ui->staffBtn, 1);
     buttonGroup->addButton(ui->cusBtn, 2);
     buttonGroup->addButton(ui->prdBtn, 3);
@@ -50,6 +52,34 @@ void admin::setGroupBtn(){
         ui->stackedWidget->setCurrentIndex(id);
     });
 }
+void admin::setGroupBtnPage(){
+    QButtonGroup* buttonGroup = new QButtonGroup(this);
+    buttonGroup->addButton(ui->btn_1, 0);
+    buttonGroup->addButton(ui->btn_2, 1);
+    buttonGroup->addButton(ui->btn_3, 2);
+    buttonGroup->addButton(ui->btn_nonLast, 3);
+    buttonGroup->addButton(ui->btn_last, 4);
+
+    QString btnNotClick = "background-color: transparent;color: rgb(35, 35, 35);border-radius: 2px;text-align: center;";
+    QString btnOnClick = "background-color: rgb(115, 141, 255);color: #fff;border-radius: 2px;text-align: center;";
+    // lien ket
+    connect(buttonGroup, &QButtonGroup::buttonClicked, this, [=](QAbstractButton* button) {
+        int id = buttonGroup->id(button);
+
+        // Dat lai trang thai
+        for (auto btn : buttonGroup->buttons()) {
+            btn->setStyleSheet(btnNotClick);
+        }
+        button->setStyleSheet(btnOnClick);
+        });
+}
+// void admin::connectLabel(){
+//     connect(ui->logo, &QLabel::clicked, this, [this]() {
+//         ui->homeBtn->click(); // Gọi click() của btnHome khi nhấn vào label
+
+//     });
+// }
+
 
 
 void admin::on_logOutBtn_clicked()
@@ -59,4 +89,6 @@ void admin::on_logOutBtn_clicked()
     mw->setAttribute(Qt::WA_DeleteOnClose);
     mw->show();
 }
+
+
 
