@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-bd1ae9fd70b7af88e554.json",
+					"jsonFile" : "directory-.-Debug-bcc7e6a4dabe056eb9d3.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "shop_manager::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-shop_manager-Debug-04899ffe7f35551a2e83.json",
+					"jsonFile" : "target-shop_manager-Debug-6d86686b162a02e4b138.json",
 					"name" : "shop_manager",
 					"projectIndex" : 0
 				},

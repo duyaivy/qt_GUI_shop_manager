@@ -43,8 +43,8 @@ int main(int argc, char *argv[])
     // invoiceDetail::saveToFile("D:\\QUOCDUY\\qt_pbl2\\shop_manager\\detail.csv");
     // invoice::saveToFile("D:\\QUOCDUY\\qt_pbl2\\shop_manager\\invoice.csv");
 
-    // admin adminHome;
-    // adminHome.show();
-    mainWindow.show();
+    admin adminHome;
+    adminHome.show();
+    // mainWindow.show();
     return app.exec();
 }

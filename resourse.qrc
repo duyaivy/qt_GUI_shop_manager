@@ -17,5 +17,16 @@
         <file>img/logout.png</file>
         <file>img/pencil.png</file>
         <file>img/diskette.png</file>
+        <file>img/search.png</file>
+        <file>img/box.png</file>
+        <file>img/costumer.png</file>
+        <file>img/group.png</file>
+        <file>img/order-delivery.png</file>
+        <file>img/left.png</file>
+        <file>img/right.png</file>
+        <file>img/down.png</file>
+        <file>img/up.png</file>
+        <file>img/money.png</file>
+        <file>img/paper-pin.png</file>
     </qresource>
 </RCC>
