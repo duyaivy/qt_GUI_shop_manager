@@ -89,6 +89,7 @@ invoice* invoice::getInvoiceByID(const string id ){
             return invoice;
         }
     }
+    return nullptr;
 }
 void invoice::deleteInvoice(){
     auto it = find(inv.begin(), inv.end(), this);
