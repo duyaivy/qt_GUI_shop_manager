@@ -113,6 +113,62 @@ build CMakeFiles/shop_manager.dir/admin.cpp.obj: CXX_COMPILER__shop_manager_unsc
   OBJECT_DIR = CMakeFiles\shop_manager.dir
   OBJECT_FILE_DIR = CMakeFiles\shop_manager.dir
 
+build CMakeFiles/shop_manager.dir/global.cpp.obj: CXX_COMPILER__shop_manager_unscanned_Debug D$:/QUOCDUY/qt_pbl2/shop_manager/global.cpp || cmake_object_order_depends_target_shop_manager
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\shop_manager.dir\global.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -ID:/QUOCDUY/qt_pbl2/shop_manager/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/shop_manager_autogen/include -isystem C:/Qt/6.7.2/mingw_64/include/QtCore -isystem C:/Qt/6.7.2/mingw_64/include -isystem C:/Qt/6.7.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.2/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.2/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\shop_manager.dir
+  OBJECT_FILE_DIR = CMakeFiles\shop_manager.dir
+
+build CMakeFiles/shop_manager.dir/employee.cpp.obj: CXX_COMPILER__shop_manager_unscanned_Debug D$:/QUOCDUY/qt_pbl2/shop_manager/employee.cpp || cmake_object_order_depends_target_shop_manager
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\shop_manager.dir\employee.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -ID:/QUOCDUY/qt_pbl2/shop_manager/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/shop_manager_autogen/include -isystem C:/Qt/6.7.2/mingw_64/include/QtCore -isystem C:/Qt/6.7.2/mingw_64/include -isystem C:/Qt/6.7.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.2/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.2/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\shop_manager.dir
+  OBJECT_FILE_DIR = CMakeFiles\shop_manager.dir
+
+build CMakeFiles/shop_manager.dir/customer.cpp.obj: CXX_COMPILER__shop_manager_unscanned_Debug D$:/QUOCDUY/qt_pbl2/shop_manager/customer.cpp || cmake_object_order_depends_target_shop_manager
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\shop_manager.dir\customer.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -ID:/QUOCDUY/qt_pbl2/shop_manager/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/shop_manager_autogen/include -isystem C:/Qt/6.7.2/mingw_64/include/QtCore -isystem C:/Qt/6.7.2/mingw_64/include -isystem C:/Qt/6.7.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.2/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.2/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\shop_manager.dir
+  OBJECT_FILE_DIR = CMakeFiles\shop_manager.dir
+
+build CMakeFiles/shop_manager.dir/modalview.cpp.obj: CXX_COMPILER__shop_manager_unscanned_Debug D$:/QUOCDUY/qt_pbl2/shop_manager/modalview.cpp || cmake_object_order_depends_target_shop_manager
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\shop_manager.dir\modalview.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -ID:/QUOCDUY/qt_pbl2/shop_manager/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/shop_manager_autogen/include -isystem C:/Qt/6.7.2/mingw_64/include/QtCore -isystem C:/Qt/6.7.2/mingw_64/include -isystem C:/Qt/6.7.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.2/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.2/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\shop_manager.dir
+  OBJECT_FILE_DIR = CMakeFiles\shop_manager.dir
+
+build CMakeFiles/shop_manager.dir/modalviews.cpp.obj: CXX_COMPILER__shop_manager_unscanned_Debug D$:/QUOCDUY/qt_pbl2/shop_manager/modalviews.cpp || cmake_object_order_depends_target_shop_manager
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\shop_manager.dir\modalviews.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -ID:/QUOCDUY/qt_pbl2/shop_manager/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/shop_manager_autogen/include -isystem C:/Qt/6.7.2/mingw_64/include/QtCore -isystem C:/Qt/6.7.2/mingw_64/include -isystem C:/Qt/6.7.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.2/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.2/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\shop_manager.dir
+  OBJECT_FILE_DIR = CMakeFiles\shop_manager.dir
+
+build CMakeFiles/shop_manager.dir/user.cpp.obj: CXX_COMPILER__shop_manager_unscanned_Debug D$:/QUOCDUY/qt_pbl2/shop_manager/user.cpp || cmake_object_order_depends_target_shop_manager
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\shop_manager.dir\user.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -ID:/QUOCDUY/qt_pbl2/shop_manager/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/shop_manager_autogen/include -isystem C:/Qt/6.7.2/mingw_64/include/QtCore -isystem C:/Qt/6.7.2/mingw_64/include -isystem C:/Qt/6.7.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.2/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.2/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\shop_manager.dir
+  OBJECT_FILE_DIR = CMakeFiles\shop_manager.dir
+
+build CMakeFiles/shop_manager.dir/notify.cpp.obj: CXX_COMPILER__shop_manager_unscanned_Debug D$:/QUOCDUY/qt_pbl2/shop_manager/notify.cpp || cmake_object_order_depends_target_shop_manager
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\shop_manager.dir\notify.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -ID:/QUOCDUY/qt_pbl2/shop_manager/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/shop_manager_autogen/include -isystem C:/Qt/6.7.2/mingw_64/include/QtCore -isystem C:/Qt/6.7.2/mingw_64/include -isystem C:/Qt/6.7.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.2/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.2/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\shop_manager.dir
+  OBJECT_FILE_DIR = CMakeFiles\shop_manager.dir
+
 build CMakeFiles/shop_manager.dir/shop_manager_autogen/EWIEGA46WW/qrc_resourse.cpp.obj: CXX_COMPILER__shop_manager_unscanned_Debug D$:/QUOCDUY/qt_pbl2/shop_manager/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/shop_manager_autogen/EWIEGA46WW/qrc_resourse.cpp || cmake_object_order_depends_target_shop_manager
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\shop_manager.dir\shop_manager_autogen\EWIEGA46WW\qrc_resourse.cpp.obj.d
@@ -129,7 +185,7 @@ build CMakeFiles/shop_manager.dir/shop_manager_autogen/EWIEGA46WW/qrc_resourse.c
 #############################################
 # Link the executable shop_manager.exe
 
-build shop_manager.exe: CXX_EXECUTABLE_LINKER__shop_manager_Debug CMakeFiles/shop_manager.dir/shop_manager_autogen/mocs_compilation.cpp.obj CMakeFiles/shop_manager.dir/main.cpp.obj CMakeFiles/shop_manager.dir/person.cpp.obj CMakeFiles/shop_manager.dir/master.cpp.obj CMakeFiles/shop_manager.dir/invoice.cpp.obj CMakeFiles/shop_manager.dir/invoicedetail.cpp.obj CMakeFiles/shop_manager.dir/product.cpp.obj CMakeFiles/shop_manager.dir/admin.cpp.obj CMakeFiles/shop_manager.dir/shop_manager_autogen/EWIEGA46WW/qrc_resourse.cpp.obj | C$:/Qt/6.7.2/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Gui.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Core.a C$:/Qt/6.7.2/mingw_64/lib/libQt6EntryPoint.a || shop_manager_autogen shop_manager_autogen_timestamp_deps
+build shop_manager.exe: CXX_EXECUTABLE_LINKER__shop_manager_Debug CMakeFiles/shop_manager.dir/shop_manager_autogen/mocs_compilation.cpp.obj CMakeFiles/shop_manager.dir/main.cpp.obj CMakeFiles/shop_manager.dir/person.cpp.obj CMakeFiles/shop_manager.dir/master.cpp.obj CMakeFiles/shop_manager.dir/invoice.cpp.obj CMakeFiles/shop_manager.dir/invoicedetail.cpp.obj CMakeFiles/shop_manager.dir/product.cpp.obj CMakeFiles/shop_manager.dir/admin.cpp.obj CMakeFiles/shop_manager.dir/global.cpp.obj CMakeFiles/shop_manager.dir/employee.cpp.obj CMakeFiles/shop_manager.dir/customer.cpp.obj CMakeFiles/shop_manager.dir/modalview.cpp.obj CMakeFiles/shop_manager.dir/modalviews.cpp.obj CMakeFiles/shop_manager.dir/user.cpp.obj CMakeFiles/shop_manager.dir/notify.cpp.obj CMakeFiles/shop_manager.dir/shop_manager_autogen/EWIEGA46WW/qrc_resourse.cpp.obj | C$:/Qt/6.7.2/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Gui.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Core.a C$:/Qt/6.7.2/mingw_64/lib/libQt6EntryPoint.a || shop_manager_autogen shop_manager_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/Qt/6.7.2/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.7.2/mingw_64/lib/libQt6Gui.a  C:/Qt/6.7.2/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.7.2/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -216,7 +272,7 @@ build shop_manager_autogen_timestamp_deps: phony
 #############################################
 # Utility command for shop_manager_autogen
 
-build shop_manager_autogen: phony CMakeFiles/shop_manager_autogen shop_manager_autogen/include/ui_mainwindow.h shop_manager_autogen/include/ui_admin.h shop_manager_autogen/timestamp shop_manager_autogen/mocs_compilation.cpp shop_manager_autogen_timestamp_deps
+build shop_manager_autogen: phony CMakeFiles/shop_manager_autogen shop_manager_autogen/include/ui_mainwindow.h shop_manager_autogen/include/ui_admin.h shop_manager_autogen/include/ui_modalview.h shop_manager_autogen/include/ui_modalviews.h shop_manager_autogen/include/ui_user.h shop_manager_autogen/timestamp shop_manager_autogen/mocs_compilation.cpp shop_manager_autogen_timestamp_deps
 
 
 #############################################
@@ -233,7 +289,7 @@ build shop_manager_autogen/timestamp shop_manager_autogen/mocs_compilation.cpp |
 #############################################
 # Custom command for shop_manager_autogen\EWIEGA46WW\qrc_resourse.cpp
 
-build shop_manager_autogen/EWIEGA46WW/qrc_resourse.cpp | ${cmake_ninja_workdir}shop_manager_autogen/EWIEGA46WW/qrc_resourse.cpp: CUSTOM_COMMAND D$:/QUOCDUY/qt_pbl2/shop_manager/resourse.qrc CMakeFiles/shop_manager_autogen.dir/AutoRcc_resourse_EWIEGA46WW_Info.json D$:/QUOCDUY/qt_pbl2/shop_manager/invoice.csv D$:/QUOCDUY/qt_pbl2/shop_manager/detail.csv D$:/QUOCDUY/qt_pbl2/shop_manager/product.csv D$:/QUOCDUY/qt_pbl2/shop_manager/img/user$ (1).png D$:/QUOCDUY/qt_pbl2/shop_manager/img/order-delivery.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/left.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/team.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/paper-pin.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/images.jpg D$:/QUOCDUY/qt_pbl2/shop_manager/img/bell.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/box.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/search.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/pencil.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/down.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/logout.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/money.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/customer.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/magnifying-glass.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/right.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/diskette.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/batman_hero_avatar_comics-512.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/costumer.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/up.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/home$ (1).png D$:/QUOCDUY/qt_pbl2/shop_manager/img/profit.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/logoTest.PNG D$:/QUOCDUY/qt_pbl2/shop_manager/img/product-management.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/group.png C$:/Qt/6.7.2/mingw_64/./bin/rcc.exe C$:/Qt/6.7.2/mingw_64/./bin/rcc.exe || shop_manager_autogen shop_manager_autogen_timestamp_deps
+build shop_manager_autogen/EWIEGA46WW/qrc_resourse.cpp | ${cmake_ninja_workdir}shop_manager_autogen/EWIEGA46WW/qrc_resourse.cpp: CUSTOM_COMMAND D$:/QUOCDUY/qt_pbl2/shop_manager/resourse.qrc CMakeFiles/shop_manager_autogen.dir/AutoRcc_resourse_EWIEGA46WW_Info.json D$:/QUOCDUY/qt_pbl2/shop_manager/products.csv D$:/QUOCDUY/qt_pbl2/shop_manager/img/group.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/user$ (1).png D$:/QUOCDUY/qt_pbl2/shop_manager/img/order-delivery.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/cancel.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/history.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/CTThng11_590x221.jpg D$:/QUOCDUY/qt_pbl2/shop_manager/img/folder.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/team.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/lap3.jpg D$:/QUOCDUY/qt_pbl2/shop_manager/img/plus.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/dollar.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/problem.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/clock.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/low-prices$ (2).png D$:/QUOCDUY/qt_pbl2/shop_manager/img/banner.jpg D$:/QUOCDUY/qt_pbl2/shop_manager/img/lap1.jpg D$:/QUOCDUY/qt_pbl2/shop_manager/img/logout.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/customer.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/cartTest.PNG D$:/QUOCDUY/qt_pbl2/shop_manager/img/stars.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/logowwhite.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/plus$ (1).png D$:/QUOCDUY/qt_pbl2/shop_manager/img/magnifying-glass.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/shopping-cart.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/laptop.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/right.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/diskette.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/clipboard.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/costumer.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/up.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/payment-method.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/qr.jpg D$:/QUOCDUY/qt_pbl2/shop_manager/img/home$ (1).png D$:/QUOCDUY/qt_pbl2/shop_manager/img/phim6.webp D$:/QUOCDUY/qt_pbl2/shop_manager/img/profile_2.PNG D$:/QUOCDUY/qt_pbl2/shop_manager/img/badge.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/left.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/purchase.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/paper-pin.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/check.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/images.jpg D$:/QUOCDUY/qt_pbl2/shop_manager/img/add-to-cart.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/bell.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/catelink.jpg D$:/QUOCDUY/qt_pbl2/shop_manager/img/box.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/grocery-store.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/question.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/search.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/confirm.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/lap2.jpg D$:/QUOCDUY/qt_pbl2/shop_manager/img/lap4.jpg D$:/QUOCDUY/qt_pbl2/shop_manager/img/purchase$ (1).png D$:/QUOCDUY/qt_pbl2/shop_manager/img/pencil.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/d9e992985b18d96aab90.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/down.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/money.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/sync$ (1).png D$:/QUOCDUY/qt_pbl2/shop_manager/img/tes.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/sync.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/fast-delivery.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/lap5.jpg D$:/QUOCDUY/qt_pbl2/shop_manager/img/batman_hero_avatar_comics-512.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/khung-laptop-23_fd54463b52cb4cf79732623e567e930e_1024x1024.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/minus.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/bellwhite.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/low-prices.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/bill.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/profit.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/logoTest.PNG D$:/QUOCDUY/qt_pbl2/shop_manager/img/earning.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/send.png D$:/QUOCDUY/qt_pbl2/shop_manager/img/product-management.png C$:/Users/Admin/Downloads/purchase.png C$:/Qt/6.7.2/mingw_64/./bin/rcc.exe C$:/Qt/6.7.2/mingw_64/./bin/rcc.exe || shop_manager_autogen shop_manager_autogen_timestamp_deps
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\QUOCDUY\qt_pbl2\shop_manager\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autorcc D:/QUOCDUY/qt_pbl2/shop_manager/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/shop_manager_autogen.dir/AutoRcc_resourse_EWIEGA46WW_Info.json Debug"
   DESC = Automatic RCC for resourse.qrc
   restat = 1
@@ -242,7 +298,7 @@ build shop_manager_autogen/EWIEGA46WW/qrc_resourse.cpp | ${cmake_ninja_workdir}s
 #############################################
 # Phony custom command for CMakeFiles\shop_manager_autogen
 
-build CMakeFiles/shop_manager_autogen shop_manager_autogen/include/ui_mainwindow.h shop_manager_autogen/include/ui_admin.h | ${cmake_ninja_workdir}CMakeFiles/shop_manager_autogen ${cmake_ninja_workdir}shop_manager_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}shop_manager_autogen/include/ui_admin.h: phony shop_manager_autogen/timestamp || shop_manager_autogen_timestamp_deps
+build CMakeFiles/shop_manager_autogen shop_manager_autogen/include/ui_mainwindow.h shop_manager_autogen/include/ui_admin.h shop_manager_autogen/include/ui_modalview.h shop_manager_autogen/include/ui_modalviews.h shop_manager_autogen/include/ui_user.h | ${cmake_ninja_workdir}CMakeFiles/shop_manager_autogen ${cmake_ninja_workdir}shop_manager_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}shop_manager_autogen/include/ui_admin.h ${cmake_ninja_workdir}shop_manager_autogen/include/ui_modalview.h ${cmake_ninja_workdir}shop_manager_autogen/include/ui_modalviews.h ${cmake_ninja_workdir}shop_manager_autogen/include/ui_user.h: phony shop_manager_autogen/timestamp || shop_manager_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.

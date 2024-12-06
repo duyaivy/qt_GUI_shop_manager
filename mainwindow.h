@@ -2,8 +2,9 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include "person.h"
+#include "customer.h"
 #include "admin.h"
+#include "user.h"
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class MainWindow;
@@ -17,7 +18,7 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-    void controlText(person p);
+    void controlText(Customer p);
     Ui::MainWindow* getptr();
 
 
@@ -26,6 +27,8 @@ private slots:
     void on_signUpBtn_clicked();
     void on_returnLoginBtn_clicked();
     void closeApp();
+
+    void on_registerBtn_clicked();
 
 private:
     Ui::MainWindow *ui;
