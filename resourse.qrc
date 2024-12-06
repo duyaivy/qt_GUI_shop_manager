@@ -1,9 +1,6 @@
 <RCC>
     <qresource prefix="/new/img">
         <file>img/images.jpg</file>
-        <file>detail.csv</file>
-        <file>invoice.csv</file>
-        <file>product.csv</file>
         <file>img/home (1).png</file>
         <file>img/batman_hero_avatar_comics-512.png</file>
         <file>img/customer.png</file>
@@ -17,5 +14,65 @@
         <file>img/logout.png</file>
         <file>img/pencil.png</file>
         <file>img/diskette.png</file>
+        <file>img/search.png</file>
+        <file>img/box.png</file>
+        <file>img/costumer.png</file>
+        <file>img/group.png</file>
+        <file>img/order-delivery.png</file>
+        <file>img/left.png</file>
+        <file>img/right.png</file>
+        <file>img/down.png</file>
+        <file>img/up.png</file>
+        <file>img/money.png</file>
+        <file>img/paper-pin.png</file>
+        <file>img/tes.png</file>
+        <file>img/badge.png</file>
+        <file>img/clock.png</file>
+        <file>products.csv</file>
+        <file>img/plus.png</file>
+        <file>img/sync.png</file>
+        <file>img/plus (1).png</file>
+        <file>img/sync (1).png</file>
+        <file>img/clipboard.png</file>
+        <file>img/dollar.png</file>
+        <file>img/cancel.png</file>
+        <file>img/confirm.png</file>
+        <file>img/folder.png</file>
+        <file>img/profile_2.PNG</file>
+        <file>img/earning.png</file>
+        <file>img/bill.png</file>
+        <file>img/logowwhite.png</file>
+        <file>img/low-prices.png</file>
+        <file>img/purchase.png</file>
+        <file>img/low-prices (2).png</file>
+        <file>img/purchase (1).png</file>
+        <file>img/laptop.png</file>
+        <file>img/khung-laptop-23_fd54463b52cb4cf79732623e567e930e_1024x1024.png</file>
+        <file>img/stars.png</file>
+        <file>img/d9e992985b18d96aab90.png</file>
+        <file>img/fast-delivery.png</file>
+        <file>img/minus.png</file>
+        <file>img/add-to-cart.png</file>
+        <file>img/payment-method.png</file>
+        <file>img/check.png</file>
+        <file>img/bellwhite.png</file>
+        <file>img/history.png</file>
+        <file>img/question.png</file>
+        <file>img/shopping-cart.png</file>
+        <file>img/grocery-store.png</file>
+        <file>img/problem.png</file>
+        <file>img/send.png</file>
+        <file>img/cartTest.PNG</file>
+        <file>img/CTThng11_590x221.jpg</file>
+        <file>C:/Users/Admin/Downloads/purchase.png</file>
+        <file>img/lap1.jpg</file>
+        <file>img/lap2.jpg</file>
+        <file>img/lap3.jpg</file>
+        <file>img/lap4.jpg</file>
+        <file>img/lap5.jpg</file>
+        <file>img/phim6.webp</file>
+        <file>img/banner.jpg</file>
+        <file>img/catelink.jpg</file>
+        <file>img/qr.jpg</file>
     </qresource>
 </RCC>

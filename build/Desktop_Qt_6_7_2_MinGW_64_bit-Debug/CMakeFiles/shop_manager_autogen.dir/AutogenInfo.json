@@ -264,6 +264,18 @@
 			null
 		],
 		[
+			"D:/QUOCDUY/qt_pbl2/shop_manager/customer.h",
+			"MU",
+			"EWIEGA46WW/moc_customer.cpp",
+			null
+		],
+		[
+			"D:/QUOCDUY/qt_pbl2/shop_manager/employee.h",
+			"MU",
+			"EWIEGA46WW/moc_employee.cpp",
+			null
+		],
+		[
 			"D:/QUOCDUY/qt_pbl2/shop_manager/global.h",
 			"MU",
 			"EWIEGA46WW/moc_global.cpp",
@@ -288,6 +300,24 @@
 			null
 		],
 		[
+			"D:/QUOCDUY/qt_pbl2/shop_manager/modalview.h",
+			"MU",
+			"EWIEGA46WW/moc_modalview.cpp",
+			null
+		],
+		[
+			"D:/QUOCDUY/qt_pbl2/shop_manager/modalviews.h",
+			"MU",
+			"EWIEGA46WW/moc_modalviews.cpp",
+			null
+		],
+		[
+			"D:/QUOCDUY/qt_pbl2/shop_manager/notify.h",
+			"MU",
+			"EWIEGA46WW/moc_notify.cpp",
+			null
+		],
+		[
 			"D:/QUOCDUY/qt_pbl2/shop_manager/person.h",
 			"MU",
 			"EWIEGA46WW/moc_person.cpp",
@@ -297,6 +327,18 @@
 			"D:/QUOCDUY/qt_pbl2/shop_manager/product.h",
 			"MU",
 			"EWIEGA46WW/moc_product.cpp",
+			null
+		],
+		[
+			"D:/QUOCDUY/qt_pbl2/shop_manager/user.h",
+			"MU",
+			"EWIEGA46WW/moc_user.cpp",
+			null
+		],
+		[
+			"D:/QUOCDUY/qt_pbl2/shop_manager/vector.h",
+			"MU",
+			"EWIEGA46WW/moc_vector.cpp",
 			null
 		]
 	],
@@ -372,12 +414,19 @@
 	"SOURCES" : 
 	[
 		[ "D:/QUOCDUY/qt_pbl2/shop_manager/admin.cpp", "MU", null ],
+		[ "D:/QUOCDUY/qt_pbl2/shop_manager/customer.cpp", "MU", null ],
+		[ "D:/QUOCDUY/qt_pbl2/shop_manager/employee.cpp", "MU", null ],
+		[ "D:/QUOCDUY/qt_pbl2/shop_manager/global.cpp", "MU", null ],
 		[ "D:/QUOCDUY/qt_pbl2/shop_manager/invoice.cpp", "MU", null ],
 		[ "D:/QUOCDUY/qt_pbl2/shop_manager/invoicedetail.cpp", "MU", null ],
 		[ "D:/QUOCDUY/qt_pbl2/shop_manager/main.cpp", "MU", null ],
 		[ "D:/QUOCDUY/qt_pbl2/shop_manager/master.cpp", "MU", null ],
+		[ "D:/QUOCDUY/qt_pbl2/shop_manager/modalview.cpp", "MU", null ],
+		[ "D:/QUOCDUY/qt_pbl2/shop_manager/modalviews.cpp", "MU", null ],
+		[ "D:/QUOCDUY/qt_pbl2/shop_manager/notify.cpp", "MU", null ],
 		[ "D:/QUOCDUY/qt_pbl2/shop_manager/person.cpp", "MU", null ],
-		[ "D:/QUOCDUY/qt_pbl2/shop_manager/product.cpp", "MU", null ]
+		[ "D:/QUOCDUY/qt_pbl2/shop_manager/product.cpp", "MU", null ],
+		[ "D:/QUOCDUY/qt_pbl2/shop_manager/user.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

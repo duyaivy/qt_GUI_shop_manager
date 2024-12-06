@@ -34,6 +34,16 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         product.h product.cpp
         admin.h admin.cpp admin.ui
         global.h
+        global.cpp
+        vector.h
+        employee.h employee.cpp
+        customer.h customer.cpp
+        modalview.h modalview.cpp modalview.ui
+        modalviews.h modalviews.cpp modalviews.ui
+        user.h user.cpp user.ui
+        notify.h notify.cpp
+
+
 
     )
 # Define target properties for Android with Qt 6 as:

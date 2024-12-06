@@ -1,0 +1,2043 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>modalView</class>
+ <widget class="QMainWindow" name="modalView">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1015</width>
+    <height>703</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1011</width>
+      <height>701</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="addStaffW">
+     <widget class="QWidget" name="widget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>10</y>
+        <width>971</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #E7EDFF;
+</string>
+      </property>
+      <widget class="QPushButton" name="handAdd">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>141</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <fontweight>DemiBold</fontweight>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:none;
+background-color:transparent;
+color: #000;
+border-bottom: 5px solid #396AFF;
+font-weight:600;</string>
+       </property>
+       <property name="text">
+        <string>Thủ Công</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="fileAdd">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>0</y>
+         <width>141</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:none;
+background-color:transparent;
+color: #000;
+</string>
+       </property>
+       <property name="text">
+        <string>Tải File</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QStackedWidget" name="addStaffWitget">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>971</width>
+        <height>621</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="page_3">
+       <widget class="QPushButton" name="saveBtn">
+        <property name="geometry">
+         <rect>
+          <x>520</x>
+          <y>520</y>
+          <width>141</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 20px;
+background-color: #f7f7f7;
+border:none;
+background-color: rgb(55, 3, 225);
+text-align: left;
+padding-left: 30px;
+padding-right: 5px;
+color: #fff;</string>
+        </property>
+        <property name="text">
+         <string> Thêm</string>
+        </property>
+        <property name="icon">
+         <iconset resource="resourse.qrc">
+          <normaloff>:/new/img/img/confirm.png</normaloff>:/new/img/img/confirm.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>23</width>
+          <height>23</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="cancelBtn">
+        <property name="geometry">
+         <rect>
+          <x>420</x>
+          <y>520</y>
+          <width>91</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 20px;
+background-color:rgb(255, 46, 49);
+border:none;
+padding-left: 13px;
+text-align: left;
+
+color: #fff;</string>
+        </property>
+        <property name="text">
+         <string>Huỷ</string>
+        </property>
+        <property name="icon">
+         <iconset resource="resourse.qrc">
+          <normaloff>:/new/img/img/cancel.png</normaloff>:/new/img/img/cancel.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>26</width>
+          <height>26</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QLabel" name="phoneLabel">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>250</y>
+          <width>101</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+          <fontweight>DemiBold</fontweight>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: black;</string>
+        </property>
+        <property name="text">
+         <string>Số Điện Thoại</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="countryLabel_2">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>330</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+          <fontweight>DemiBold</fontweight>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: black;</string>
+        </property>
+        <property name="text">
+         <string>Vị Trí</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="re_passwordLB">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>440</y>
+          <width>191</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 10px;
+color: #000;
+border: 1px solid #ccc;
+padding-left: 10px;background-color: #fff;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="echoMode">
+         <enum>QLineEdit::EchoMode::Password</enum>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="passwordLb">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>440</y>
+          <width>191</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 10px;
+color: #000;
+border: 1px solid #ccc;
+padding-left: 10px;background-color: #fff;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="echoMode">
+         <enum>QLineEdit::EchoMode::Password</enum>
+        </property>
+       </widget>
+       <widget class="QLabel" name="passLabel">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>410</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+          <fontweight>DemiBold</fontweight>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: black;</string>
+        </property>
+        <property name="text">
+         <string>Mật Khẩu</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="phoneLb">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>280</y>
+          <width>191</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 10px;
+color: #000;
+border: 1px solid #ccc;
+padding-left: 10px;
+background-color: #fff;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="nameLabel">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>90</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+          <fontweight>DemiBold</fontweight>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: black;</string>
+        </property>
+        <property name="text">
+         <string>Họ và Tên</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="passLabel_2">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>410</y>
+          <width>181</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+          <fontweight>DemiBold</fontweight>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: black;</string>
+        </property>
+        <property name="text">
+         <string>Xác Nhận Mật Khẩu</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>220</x>
+          <y>30</y>
+          <width>491</width>
+          <height>581</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #fff;
+border-radius: 30px;
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="country_Lb_2">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>360</y>
+          <width>191</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>ForbiddenCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 10px;
+color: #000;
+border: 1px solid #ccc;
+padding-left: 10px;
+color:black;</string>
+        </property>
+        <property name="text">
+         <string>Sales</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="addressLabel">
+        <property name="geometry">
+         <rect>
+          <x>460</x>
+          <y>330</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+          <fontweight>DemiBold</fontweight>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: black;</string>
+        </property>
+        <property name="text">
+         <string>Quốc Gia</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="emailLabel">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>170</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+          <fontweight>DemiBold</fontweight>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: black;</string>
+        </property>
+        <property name="text">
+         <string>Email</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="emaiLb">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>200</y>
+          <width>401</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 10px;
+color: #000;
+border: 1px solid #ccc;
+padding-left: 10px;
+background-color: #fff;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_9">
+        <property name="geometry">
+         <rect>
+          <x>380</x>
+          <y>50</y>
+          <width>231</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: blue;
+</string>
+        </property>
+        <property name="text">
+         <string>Thêm Thủ Công</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="dayLb">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>280</y>
+          <width>191</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 10px;
+color: #000;
+border: 1px solid #ccc;
+padding-left: 10px;
+background-color: #fff;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="countryLabel">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>250</y>
+          <width>141</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+          <fontweight>DemiBold</fontweight>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: black;</string>
+        </property>
+        <property name="text">
+         <string>Ngày Vào Làm</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="nameLb">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>120</y>
+          <width>401</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 10px;
+color: #000;
+border: 1px solid #ccc;
+padding-left: 10px;
+background-color: #fff;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="statusAdd">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>480</y>
+          <width>341</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: red;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="country_Lb_3">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>360</y>
+          <width>191</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>ForbiddenCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 10px;
+color: #000;
+border: 1px solid #ccc;
+padding-left: 10px;
+color:black;</string>
+        </property>
+        <property name="text">
+         <string>Việt Nam</string>
+        </property>
+       </widget>
+       <zorder>label_4</zorder>
+       <zorder>saveBtn</zorder>
+       <zorder>cancelBtn</zorder>
+       <zorder>phoneLabel</zorder>
+       <zorder>countryLabel_2</zorder>
+       <zorder>re_passwordLB</zorder>
+       <zorder>passwordLb</zorder>
+       <zorder>passLabel</zorder>
+       <zorder>phoneLb</zorder>
+       <zorder>nameLabel</zorder>
+       <zorder>passLabel_2</zorder>
+       <zorder>country_Lb_2</zorder>
+       <zorder>addressLabel</zorder>
+       <zorder>emailLabel</zorder>
+       <zorder>emaiLb</zorder>
+       <zorder>label_9</zorder>
+       <zorder>dayLb</zorder>
+       <zorder>countryLabel</zorder>
+       <zorder>nameLb</zorder>
+       <zorder>statusAdd</zorder>
+       <zorder>country_Lb_3</zorder>
+      </widget>
+      <widget class="QWidget" name="page_4">
+       <widget class="QWidget" name="widget_2" native="true">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>971</width>
+          <height>621</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #fff;
+border-bottom-left-radius: 30px;
+border-bottom-right-radius: 30px;</string>
+        </property>
+        <widget class="QLabel" name="label_10">
+         <property name="geometry">
+          <rect>
+           <x>380</x>
+           <y>20</y>
+           <width>231</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>16</pointsize>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: blue;
+</string>
+         </property>
+         <property name="text">
+          <string>Thêm Nhân Viên Mới</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="cancelBtn_3">
+         <property name="geometry">
+          <rect>
+           <x>510</x>
+           <y>520</y>
+           <width>91</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius: 20px;
+background-color:rgb(255, 46, 49);
+border:none;
+padding-left: 13px;
+text-align: left;
+
+color: #fff;</string>
+         </property>
+         <property name="text">
+          <string>Huỷ</string>
+         </property>
+         <property name="icon">
+          <iconset resource="resourse.qrc">
+           <normaloff>:/new/img/img/cancel.png</normaloff>:/new/img/img/cancel.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>26</width>
+           <height>26</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="addBtn">
+         <property name="geometry">
+          <rect>
+           <x>750</x>
+           <y>520</y>
+           <width>131</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius: 20px;
+background-color: #f7f7f7;
+border:none;
+background-color: rgb(55, 3, 225);
+text-align: left;
+padding-left: 30px;
+padding-right: 5px;
+color: #fff;</string>
+         </property>
+         <property name="text">
+          <string> Thêm</string>
+         </property>
+         <property name="icon">
+          <iconset resource="resourse.qrc">
+           <normaloff>:/new/img/img/confirm.png</normaloff>:/new/img/img/confirm.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>23</width>
+           <height>23</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="choseBtn">
+         <property name="geometry">
+          <rect>
+           <x>610</x>
+           <y>520</y>
+           <width>131</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius: 20px;
+background-color: #f7f7f7;
+border:none;
+background-color: rgb(55, 3, 225);
+text-align: left;
+padding-left: 20px;
+padding-right: 5px;
+color: #fff;</string>
+         </property>
+         <property name="text">
+          <string>Chọn FIle</string>
+         </property>
+         <property name="icon">
+          <iconset resource="resourse.qrc">
+           <normaloff>:/new/img/img/folder.png</normaloff>:/new/img/img/folder.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>23</width>
+           <height>23</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QTextBrowser" name="textBrowser">
+         <property name="geometry">
+          <rect>
+           <x>90</x>
+           <y>90</y>
+           <width>791</width>
+           <height>391</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="cursor" stdset="0">
+          <cursorShape>IBeamCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">padding:20px 40px 20px 40px;
+background-color:transparent;
+border:1px solid #ccc;
+border-radius:10px;</string>
+         </property>
+         <property name="html">
+          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Chọn file để xem trước tại đây.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_5"/>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="seeInforW">
+     <widget class="QWidget" name="widget_4" native="true">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>10</y>
+        <width>971</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #E7EDFF;
+</string>
+      </property>
+      <widget class="QPushButton" name="viewBtn">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>141</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <bold>false</bold>
+         <underline>false</underline>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:none;
+background-color:transparent;
+color: #000;
+border-bottom: 5px solid #396AFF;
+</string>
+       </property>
+       <property name="text">
+        <string>Xem thông tin</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="updateBtn">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>0</y>
+         <width>141</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <fontweight>Medium</fontweight>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:none;
+background-color:transparent;
+color: #000;
+</string>
+       </property>
+       <property name="text">
+        <string>Sửa thông tin</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="delBtn">
+       <property name="geometry">
+        <rect>
+         <x>280</x>
+         <y>0</y>
+         <width>141</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:none;
+background-color:transparent;
+color: #000;
+</string>
+       </property>
+       <property name="text">
+        <string>Xoá đối tượng</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QStackedWidget" name="inforWidget">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>971</width>
+        <height>641</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="view">
+       <widget class="QWidget" name="viewInfor" native="true">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>971</width>
+          <height>621</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #fff;
+border-bottom-left-radius: 30px;
+border-bottom-right-radius: 30px;</string>
+        </property>
+        <widget class="QLabel" name="avtLabel">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>20</y>
+           <width>131</width>
+           <height>131</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius: 20px;
+background-color: transparent;
+border:none;
+overflow: hidden;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resourse.qrc">:/new/img/img/profile_2.PNG</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="name">
+         <property name="geometry">
+          <rect>
+           <x>220</x>
+           <y>50</y>
+           <width>451</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>22</pointsize>
+           <fontweight>DemiBold</fontweight>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: transparent;
+color: #000;
+</string>
+         </property>
+         <property name="text">
+          <string>Unknown Name</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="phone">
+         <property name="geometry">
+          <rect>
+           <x>220</x>
+           <y>90</y>
+           <width>311</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>16</pointsize>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: transparent;
+color: #000;
+</string>
+         </property>
+         <property name="text">
+          <string>0979.xxx.xxx</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="updateBtn_2">
+         <property name="geometry">
+          <rect>
+           <x>760</x>
+           <y>50</y>
+           <width>141</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>13</pointsize>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius:10px;
+background-color: #396AFF;
+color: #fff;
+/*padding-left: 10px;/*</string>
+         </property>
+         <property name="text">
+          <string>Chỉnh sửa</string>
+         </property>
+         <property name="icon">
+          <iconset resource="resourse.qrc">
+           <normaloff>:/new/img/img/pencil.png</normaloff>:/new/img/img/pencil.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>20</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>false</bool>
+         </property>
+         <property name="default">
+          <bool>false</bool>
+         </property>
+         <property name="flat">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="emailLB">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>170</y>
+           <width>111</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+           <fontweight>DemiBold</fontweight>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: black;</string>
+         </property>
+         <property name="text">
+          <string>Email</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="emailText">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>200</y>
+           <width>371</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius: 2px;
+background-color: #f9f9f9;
+border: none;
+padding-left: 20px;
+color:black;</string>
+         </property>
+         <property name="text">
+          <string>unknown@gmail.com</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="changeText">
+         <property name="geometry">
+          <rect>
+           <x>500</x>
+           <y>200</y>
+           <width>371</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius: 2px;
+background-color: #f9f9f9;
+border: none;
+padding-left: 20px;
+color:black;</string>
+         </property>
+         <property name="text">
+          <string>54 Nguyễn Lương Bằng - Liên Chiểu - Đà Nẵng</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="changeLabel">
+         <property name="geometry">
+          <rect>
+           <x>500</x>
+           <y>170</y>
+           <width>111</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+           <fontweight>DemiBold</fontweight>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: black;</string>
+         </property>
+         <property name="text">
+          <string>Địa chỉ</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="passLb_4">
+         <property name="geometry">
+          <rect>
+           <x>500</x>
+           <y>270</y>
+           <width>371</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius: 2px;
+background-color: #f9f9f9;
+border: none;
+padding-left: 20px;
+color:black;</string>
+         </property>
+         <property name="text">
+          <string>Sở thích: code đến mờ mắt đau lưng.</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="idLabel_3">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>240</y>
+           <width>111</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+           <fontweight>DemiBold</fontweight>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: black;</string>
+         </property>
+         <property name="text">
+          <string>Mật khẩu</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="idLabel_4">
+         <property name="geometry">
+          <rect>
+           <x>500</x>
+           <y>240</y>
+           <width>111</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+           <fontweight>DemiBold</fontweight>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: black;</string>
+         </property>
+         <property name="text">
+          <string>Thông tin khác</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>270</y>
+           <width>371</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius: 2px;
+background-color: #f9f9f9;
+border: none;
+padding-left: 20px;
+color:black;</string>
+         </property>
+         <property name="text">
+          <string>dfdfdfsd</string>
+         </property>
+         <property name="echoMode">
+          <enum>QLineEdit::EchoMode::Password</enum>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="idLabel_5">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>310</y>
+           <width>111</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+           <fontweight>DemiBold</fontweight>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: black;</string>
+         </property>
+         <property name="text">
+          <string>Lịch sử hoá đơn</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="idLabel_6">
+         <property name="geometry">
+          <rect>
+           <x>500</x>
+           <y>310</y>
+           <width>111</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+           <fontweight>DemiBold</fontweight>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: black;</string>
+         </property>
+         <property name="text">
+          <string>Lịch sử giỏ hàng</string>
+         </property>
+        </widget>
+        <widget class="QTableView" name="tableViewInvoice">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>340</y>
+           <width>401</width>
+           <height>271</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QTableWidget
+{
+color:red; 
+gridline-color:black;
+ selection-color:green;
+font: 700 15pt  &quot;Arial&quot;; 
+selection-background-color:blue;
+
+}
+QTableWidget::item:selected
+{
+color:white;
+background-color:blue;
+}
+
+QHeaderView
+{
+border:none;
+font: 500 &quot;Arial&quot;;
+color:blue;
+
+}
+QHeaderView::section
+{
+border: none;
+font: 500 16px &quot;Arial&quot;;
+color:#718EBF;
+background-color: white;
+padding: 10px 10px;
+
+}
+QTableView::item {
+    background-color: white;              
+    color:232323;        
+	padding:15px 20px;     
+ 	border-left: none;          
+    border-right: none;         
+    border-top: 1px solid #E6EFF5;        
+}
+QTableView::item:selected {
+    background-color:#95a1ff;     
+    color: white;                        
+}
+QScrollBar:horizonta , QScrollBar:vertical { height: 0px; width: 0px; }</string>
+         </property>
+         <property name="showGrid">
+          <bool>true</bool>
+         </property>
+         <attribute name="verticalHeaderVisible">
+          <bool>true</bool>
+         </attribute>
+        </widget>
+        <widget class="QTableView" name="tableViewCart">
+         <property name="geometry">
+          <rect>
+           <x>500</x>
+           <y>340</y>
+           <width>401</width>
+           <height>271</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">
+QTableWidget
+{
+color:red; 
+gridline-color:black;
+ selection-color:green;
+font: 700 15pt  &quot;Arial&quot;; 
+selection-background-color:blue;
+
+}
+QTableWidget::item:selected
+{
+color:white;
+background-color:blue;
+}
+
+QHeaderView
+{
+border:none;
+font: 500 &quot;Arial&quot;;
+color:blue;
+border: none;
+}
+QHeaderView::section
+{
+border: none;
+font: 500 16px &quot;Arial&quot;;
+color:#718EBF;
+background-color: white;
+padding: 10px 10px;
+
+}
+QTableView::item {
+    background-color: white;              
+    color:232323;        
+	padding:15px 20px;     
+ 	border-left: none;          
+    border-right: none;         
+    border-top: 1px solid #E6EFF5;        
+}
+QTableView::item:selected {
+    background-color:#95a1ff;     
+    color: white;                        
+}
+QScrollBar:horizonta { height: 0px; width: 0px; }</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="updateBtn_3">
+         <property name="geometry">
+          <rect>
+           <x>760</x>
+           <y>110</y>
+           <width>141</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>13</pointsize>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius:10px;
+background-color: rgb(255, 67, 67);
+color: #fff;
+</string>
+         </property>
+         <property name="text">
+          <string>Xoá</string>
+         </property>
+         <property name="icon">
+          <iconset resource="resourse.qrc">
+           <normaloff>:/new/img/img/cancel.png</normaloff>:/new/img/img/cancel.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>20</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>false</bool>
+         </property>
+         <property name="default">
+          <bool>false</bool>
+         </property>
+         <property name="flat">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="update">
+       <widget class="QWidget" name="updateInfor" native="true">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>971</width>
+          <height>621</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #fff;
+border-bottom-left-radius: 30px;
+border-bottom-right-radius: 30px;</string>
+        </property>
+        <widget class="QLabel" name="nameLabel_2">
+         <property name="geometry">
+          <rect>
+           <x>290</x>
+           <y>100</y>
+           <width>81</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+           <fontweight>DemiBold</fontweight>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: black;</string>
+         </property>
+         <property name="text">
+          <string>Họ và Tên</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="saveBtn_2">
+         <property name="geometry">
+          <rect>
+           <x>550</x>
+           <y>470</y>
+           <width>141</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius: 20px;
+background-color: #f7f7f7;
+border:none;
+background-color: rgb(55, 3, 225);
+text-align: left;
+padding-left: 20px;
+padding-right: 5px;
+color: #fff;</string>
+         </property>
+         <property name="text">
+          <string>Chỉnh sửa</string>
+         </property>
+         <property name="icon">
+          <iconset resource="resourse.qrc">
+           <normaloff>:/new/img/img/confirm.png</normaloff>:/new/img/img/confirm.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>23</width>
+           <height>23</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="repassUpdate">
+         <property name="geometry">
+          <rect>
+           <x>500</x>
+           <y>290</y>
+           <width>191</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>IBeamCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius: 10px;
+color: #000;
+border: 1px solid #ccc;
+padding-left: 10px;background-color: #fff;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="echoMode">
+          <enum>QLineEdit::EchoMode::Password</enum>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="emailUpdate">
+         <property name="geometry">
+          <rect>
+           <x>290</x>
+           <y>210</y>
+           <width>191</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>IBeamCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius: 10px;
+color: #000;
+border: 1px solid #ccc;
+padding-left: 10px;
+background-color: #fff;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="nameUpdate">
+         <property name="geometry">
+          <rect>
+           <x>290</x>
+           <y>130</y>
+           <width>401</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>IBeamCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius: 10px;
+color: #000;
+border: 1px solid #ccc;
+padding-left: 10px;
+background-color: #fff;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="cancelBtn_2">
+         <property name="geometry">
+          <rect>
+           <x>450</x>
+           <y>470</y>
+           <width>91</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius: 20px;
+background-color:rgb(255, 46, 49);
+border:none;
+padding-left: 13px;
+text-align: left;
+
+color: #fff;</string>
+         </property>
+         <property name="text">
+          <string>Huỷ</string>
+         </property>
+         <property name="icon">
+          <iconset resource="resourse.qrc">
+           <normaloff>:/new/img/img/cancel.png</normaloff>:/new/img/img/cancel.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>26</width>
+           <height>26</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QLabel" name="passLabel_3">
+         <property name="geometry">
+          <rect>
+           <x>500</x>
+           <y>260</y>
+           <width>141</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+           <fontweight>DemiBold</fontweight>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: black;</string>
+         </property>
+         <property name="text">
+          <string>Nhập lại mật Khẩu</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_11">
+         <property name="geometry">
+          <rect>
+           <x>390</x>
+           <y>50</y>
+           <width>231</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>16</pointsize>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: blue;
+</string>
+         </property>
+         <property name="text">
+          <string>Chỉnh sửa thông tin</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="emailLabel_2">
+         <property name="geometry">
+          <rect>
+           <x>290</x>
+           <y>180</y>
+           <width>81</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+           <fontweight>DemiBold</fontweight>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: black;</string>
+         </property>
+         <property name="text">
+          <string>Email</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="phoneLabel_2">
+         <property name="geometry">
+          <rect>
+           <x>500</x>
+           <y>180</y>
+           <width>101</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+           <fontweight>DemiBold</fontweight>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: black;</string>
+         </property>
+         <property name="text">
+          <string>Số Điện Thoại</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="statusUpdate">
+         <property name="geometry">
+          <rect>
+           <x>290</x>
+           <y>420</y>
+           <width>341</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: red;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="phoneUpdate">
+         <property name="geometry">
+          <rect>
+           <x>500</x>
+           <y>210</y>
+           <width>191</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>IBeamCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius: 10px;
+color: #000;
+border: 1px solid #ccc;
+padding-left: 10px;
+background-color: #fff;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="changeUpdate">
+         <property name="geometry">
+          <rect>
+           <x>290</x>
+           <y>370</y>
+           <width>401</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>IBeamCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius: 10px;
+color: #000;
+border: 1px solid #ccc;
+padding-left: 10px;
+background-color: #fff;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="changeUpdateLabel">
+         <property name="geometry">
+          <rect>
+           <x>290</x>
+           <y>340</y>
+           <width>161</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+           <fontweight>DemiBold</fontweight>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: black;</string>
+         </property>
+         <property name="text">
+          <string>Địa chỉ</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="passUpdate">
+         <property name="geometry">
+          <rect>
+           <x>290</x>
+           <y>290</y>
+           <width>191</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>IBeamCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius: 10px;
+color: #000;
+border: 1px solid #ccc;
+padding-left: 10px;background-color: #fff;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="echoMode">
+          <enum>QLineEdit::EchoMode::Password</enum>
+         </property>
+        </widget>
+        <widget class="QLabel" name="passLabel_5">
+         <property name="geometry">
+          <rect>
+           <x>290</x>
+           <y>260</y>
+           <width>81</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+           <fontweight>DemiBold</fontweight>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: black;</string>
+         </property>
+         <property name="text">
+          <string>Mật Khẩu</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page"/>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="invoice"/>
+   </widget>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>nameLb</tabstop>
+  <tabstop>emaiLb</tabstop>
+  <tabstop>phoneLb</tabstop>
+  <tabstop>dayLb</tabstop>
+  <tabstop>passwordLb</tabstop>
+  <tabstop>re_passwordLB</tabstop>
+  <tabstop>saveBtn</tabstop>
+  <tabstop>fileAdd</tabstop>
+  <tabstop>cancelBtn</tabstop>
+  <tabstop>handAdd</tabstop>
+  <tabstop>cancelBtn_3</tabstop>
+  <tabstop>addBtn</tabstop>
+  <tabstop>choseBtn</tabstop>
+  <tabstop>textBrowser</tabstop>
+ </tabstops>
+ <resources>
+  <include location="resourse.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>updateBtn_2</sender>
+   <signal>clicked()</signal>
+   <receiver>updateBtn</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>831</x>
+     <y>146</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>247</x>
+     <y>47</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>updateBtn_3</sender>
+   <signal>clicked()</signal>
+   <receiver>delBtn</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>814</x>
+     <y>189</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>376</x>
+     <y>48</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

@@ -44,24 +44,25 @@ public:
     QLabel *loginStatus;
     QPushButton *signUpBtn;
     QWidget *page_2;
-    QLineEdit *id_2;
-    QLineEdit *pw_2;
+    QLineEdit *phone;
+    QLineEdit *address;
     QLabel *label_12;
     QTextBrowser *inforSV_2;
     QLabel *label_13;
     QLabel *label_14;
     QPushButton *closeBtn_2;
     QLabel *label_15;
-    QPushButton *pushButton_2;
-    QLineEdit *id_3;
+    QPushButton *registerBtn;
+    QLineEdit *name;
     QLabel *loginStatus_2;
     QLabel *label_16;
     QLabel *label_17;
-    QLineEdit *id_4;
+    QLineEdit *email;
     QLabel *label_18;
     QLabel *label_19;
-    QLineEdit *pw_3;
+    QLineEdit *password;
     QPushButton *returnLoginBtn;
+    QLineEdit *re_password;
 
     void setupUi(QMainWindow *MainWindow)
     {
@@ -210,30 +211,30 @@ public:
         signUpBtn->raise();
         page_2 = new QWidget();
         page_2->setObjectName("page_2");
-        id_2 = new QLineEdit(page_2);
-        id_2->setObjectName("id_2");
-        id_2->setGeometry(QRect(620, 310, 121, 41));
+        phone = new QLineEdit(page_2);
+        phone->setObjectName("phone");
+        phone->setGeometry(QRect(620, 280, 121, 41));
         QFont font2;
         font2.setPointSize(10);
-        id_2->setFont(font2);
-        id_2->setFocusPolicy(Qt::FocusPolicy::WheelFocus);
-        id_2->setStyleSheet(QString::fromUtf8("background-color: #e8f0fd;\n"
+        phone->setFont(font2);
+        phone->setFocusPolicy(Qt::FocusPolicy::WheelFocus);
+        phone->setStyleSheet(QString::fromUtf8("background-color: #e8f0fd;\n"
 "border-radius: 2px;\n"
 "border: 1px solid #000;\n"
 "padding:5px;"));
-        pw_2 = new QLineEdit(page_2);
-        pw_2->setObjectName("pw_2");
-        pw_2->setGeometry(QRect(620, 360, 301, 41));
-        pw_2->setFont(font2);
-        pw_2->setCursor(QCursor(Qt::CursorShape::IBeamCursor));
-        pw_2->setStyleSheet(QString::fromUtf8("background-color: #e8f0fd;\n"
+        address = new QLineEdit(page_2);
+        address->setObjectName("address");
+        address->setGeometry(QRect(620, 330, 301, 41));
+        address->setFont(font2);
+        address->setCursor(QCursor(Qt::CursorShape::IBeamCursor));
+        address->setStyleSheet(QString::fromUtf8("background-color: #e8f0fd;\n"
 "border-radius: 2px;\n"
 "border: 1px solid #000;\n"
 "padding:5px;"));
-        pw_2->setEchoMode(QLineEdit::EchoMode::Normal);
+        address->setEchoMode(QLineEdit::EchoMode::Normal);
         label_12 = new QLabel(page_2);
         label_12->setObjectName("label_12");
-        label_12->setGeometry(QRect(630, 530, 291, 21));
+        label_12->setGeometry(QRect(630, 540, 291, 21));
         label_12->setStyleSheet(QString::fromUtf8("background-color: transparent;\n"
 "color: rgba(0,0,0,0.5);"));
         inforSV_2 = new QTextBrowser(page_2);
@@ -248,7 +249,7 @@ public:
 "border-radius: 30px;"));
         label_14 = new QLabel(page_2);
         label_14->setObjectName("label_14");
-        label_14->setGeometry(QRect(620, 130, 271, 51));
+        label_14->setGeometry(QRect(620, 120, 271, 51));
         label_14->setStyleSheet(QString::fromUtf8("background-color: transparent;\n"
 "font-family: Arial;\n"
 "font-size: 42px;\n"
@@ -256,7 +257,7 @@ public:
 "color:rgb(12, 5, 230)"));
         closeBtn_2 = new QPushButton(page_2);
         closeBtn_2->setObjectName("closeBtn_2");
-        closeBtn_2->setGeometry(QRect(730, 480, 91, 31));
+        closeBtn_2->setGeometry(QRect(730, 500, 91, 31));
         closeBtn_2->setCursor(QCursor(Qt::CursorShape::PointingHandCursor));
         closeBtn_2->setStyleSheet(QString::fromUtf8("background-color:#ccc;"));
         label_15 = new QLabel(page_2);
@@ -264,33 +265,33 @@ public:
         label_15->setGeometry(QRect(240, 240, 171, 171));
         label_15->setPixmap(QPixmap(QString::fromUtf8(":/new/img/img/images.jpg")));
         label_15->setScaledContents(true);
-        pushButton_2 = new QPushButton(page_2);
-        pushButton_2->setObjectName("pushButton_2");
-        pushButton_2->setGeometry(QRect(830, 480, 91, 31));
+        registerBtn = new QPushButton(page_2);
+        registerBtn->setObjectName("registerBtn");
+        registerBtn->setGeometry(QRect(830, 500, 91, 31));
         QFont font3;
         font3.setPointSize(10);
         font3.setBold(true);
-        pushButton_2->setFont(font3);
-        pushButton_2->setCursor(QCursor(Qt::CursorShape::PointingHandCursor));
-        pushButton_2->setStyleSheet(QString::fromUtf8("background-color:#4561ff;\n"
+        registerBtn->setFont(font3);
+        registerBtn->setCursor(QCursor(Qt::CursorShape::PointingHandCursor));
+        registerBtn->setStyleSheet(QString::fromUtf8("background-color:#4561ff;\n"
 "font-weight: 700;\n"
 "color: white;\n"
 ""));
-        id_3 = new QLineEdit(page_2);
-        id_3->setObjectName("id_3");
-        id_3->setGeometry(QRect(620, 260, 301, 41));
-        id_3->setFont(font2);
-        id_3->setStyleSheet(QString::fromUtf8("background-color: #e8f0fd;\n"
+        name = new QLineEdit(page_2);
+        name->setObjectName("name");
+        name->setGeometry(QRect(620, 230, 301, 41));
+        name->setFont(font2);
+        name->setStyleSheet(QString::fromUtf8("background-color: #e8f0fd;\n"
 "border-radius: 2px;\n"
 "border: 1px solid #000;\n"
 "padding:5px;"));
         loginStatus_2 = new QLabel(page_2);
         loginStatus_2->setObjectName("loginStatus_2");
-        loginStatus_2->setGeometry(QRect(620, 450, 221, 30));
+        loginStatus_2->setGeometry(QRect(620, 470, 221, 30));
         loginStatus_2->setStyleSheet(QString::fromUtf8("background-color: transparent;color:red;"));
         label_16 = new QLabel(page_2);
         label_16->setObjectName("label_16");
-        label_16->setGeometry(QRect(620, 180, 271, 51));
+        label_16->setGeometry(QRect(620, 170, 271, 51));
         label_16->setStyleSheet(QString::fromUtf8("background-color: transparent;\n"
 "font-family: Arial;\n"
 "font-size: 22px;\n"
@@ -304,11 +305,11 @@ public:
 "font-size: 58px;\n"
 "font-weight:700;\n"
 ""));
-        id_4 = new QLineEdit(page_2);
-        id_4->setObjectName("id_4");
-        id_4->setGeometry(QRect(750, 310, 171, 41));
-        id_4->setFont(font2);
-        id_4->setStyleSheet(QString::fromUtf8("background-color: #e8f0fd;\n"
+        email = new QLineEdit(page_2);
+        email->setObjectName("email");
+        email->setGeometry(QRect(750, 280, 171, 41));
+        email->setFont(font2);
+        email->setStyleSheet(QString::fromUtf8("background-color: #e8f0fd;\n"
 "border-radius: 2px;\n"
 "border: 1px solid #000;\n"
 "padding:5px;"));
@@ -325,15 +326,15 @@ public:
 "font-family: Arial;\n"
 "font-size: 18px;\n"
 "font-weight:500;"));
-        pw_3 = new QLineEdit(page_2);
-        pw_3->setObjectName("pw_3");
-        pw_3->setGeometry(QRect(620, 410, 301, 41));
-        pw_3->setFont(font2);
-        pw_3->setStyleSheet(QString::fromUtf8("background-color: #e8f0fd;\n"
+        password = new QLineEdit(page_2);
+        password->setObjectName("password");
+        password->setGeometry(QRect(620, 380, 301, 41));
+        password->setFont(font2);
+        password->setStyleSheet(QString::fromUtf8("background-color: #e8f0fd;\n"
 "border-radius: 2px;\n"
 "border: 1px solid #000;\n"
 "padding:5px;"));
-        pw_3->setEchoMode(QLineEdit::EchoMode::Password);
+        password->setEchoMode(QLineEdit::EchoMode::Password);
         returnLoginBtn = new QPushButton(page_2);
         returnLoginBtn->setObjectName("returnLoginBtn");
         returnLoginBtn->setGeometry(QRect(790, 570, 111, 30));
@@ -344,38 +345,48 @@ public:
 "font-size: 18px;\n"
 "\n"
 "border: none;"));
+        re_password = new QLineEdit(page_2);
+        re_password->setObjectName("re_password");
+        re_password->setGeometry(QRect(620, 430, 301, 41));
+        re_password->setFont(font2);
+        re_password->setStyleSheet(QString::fromUtf8("background-color: #e8f0fd;\n"
+"border-radius: 2px;\n"
+"border: 1px solid #000;\n"
+"padding:5px;"));
+        re_password->setEchoMode(QLineEdit::EchoMode::Password);
         stackedWidget->addWidget(page_2);
         label_18->raise();
         label_13->raise();
-        id_2->raise();
-        pw_2->raise();
+        phone->raise();
+        address->raise();
         label_12->raise();
         inforSV_2->raise();
         label_14->raise();
         closeBtn_2->raise();
         label_15->raise();
-        pushButton_2->raise();
-        id_3->raise();
+        registerBtn->raise();
+        name->raise();
         loginStatus_2->raise();
         label_16->raise();
         label_17->raise();
-        id_4->raise();
+        email->raise();
         label_19->raise();
-        pw_3->raise();
+        password->raise();
         returnLoginBtn->raise();
+        re_password->raise();
         MainWindow->setCentralWidget(centralwidget);
         QWidget::setTabOrder(id, pw);
-        QWidget::setTabOrder(pw, id_3);
-        QWidget::setTabOrder(id_3, id_2);
-        QWidget::setTabOrder(id_2, id_4);
-        QWidget::setTabOrder(id_4, pw_2);
-        QWidget::setTabOrder(pw_2, pw_3);
-        QWidget::setTabOrder(pw_3, closeBtn_2);
+        QWidget::setTabOrder(pw, name);
+        QWidget::setTabOrder(name, phone);
+        QWidget::setTabOrder(phone, email);
+        QWidget::setTabOrder(email, address);
+        QWidget::setTabOrder(address, password);
+        QWidget::setTabOrder(password, closeBtn_2);
         QWidget::setTabOrder(closeBtn_2, pushButton);
         QWidget::setTabOrder(pushButton, returnLoginBtn);
         QWidget::setTabOrder(returnLoginBtn, closeBtn);
-        QWidget::setTabOrder(closeBtn, pushButton_2);
-        QWidget::setTabOrder(pushButton_2, signUpBtn);
+        QWidget::setTabOrder(closeBtn, registerBtn);
+        QWidget::setTabOrder(registerBtn, signUpBtn);
         QWidget::setTabOrder(signUpBtn, inforSV);
         QWidget::setTabOrder(inforSV, inforSV_2);
 
@@ -407,7 +418,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:16pt;\">Sinh vi\303\252n:     Tr\341\272\247n T\303\242m Nh\306\260                - 102230311</span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:16pt;\">GVHD: 	       Mai V\304\203n H\303\240</span></p></body></html>", nullptr));
         label_3->setText(QCoreApplication::translate("MainWindow", "Qu\303\252n m\341\272\255t kh\341\272\251u?", nullptr));
-        id->setPlaceholderText(QCoreApplication::translate("MainWindow", "Nh\341\272\255p ID", nullptr));
+        id->setPlaceholderText(QCoreApplication::translate("MainWindow", "Nh\341\272\255p S\304\220T", nullptr));
         label_10->setText(QString());
         pushButton->setText(QCoreApplication::translate("MainWindow", "\304\220\304\203ng Nh\341\272\255p", nullptr));
         label_8->setText(QCoreApplication::translate("MainWindow", "tr\341\273\237 l\341\272\241i!", nullptr));
@@ -418,8 +429,8 @@ public:
         label_4->setText(QString());
         loginStatus->setText(QString());
         signUpBtn->setText(QCoreApplication::translate("MainWindow", "\304\220\304\203ng K\303\275", nullptr));
-        id_2->setPlaceholderText(QCoreApplication::translate("MainWindow", "S\341\273\221 \304\221i\341\273\207n tho\341\272\241i", nullptr));
-        pw_2->setPlaceholderText(QCoreApplication::translate("MainWindow", "Email", nullptr));
+        phone->setPlaceholderText(QCoreApplication::translate("MainWindow", "S\341\273\221 \304\221i\341\273\207n tho\341\272\241i", nullptr));
+        address->setPlaceholderText(QCoreApplication::translate("MainWindow", "\304\220\341\273\213a ch\341\273\211", nullptr));
         label_12->setText(QCoreApplication::translate("MainWindow", "--------------------------Ho\341\272\267c-------------------------", nullptr));
         inforSV_2->setHtml(QCoreApplication::translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
@@ -438,16 +449,17 @@ public:
         label_14->setText(QCoreApplication::translate("MainWindow", "\304\220\304\203ng k\303\275", nullptr));
         closeBtn_2->setText(QCoreApplication::translate("MainWindow", "Tho\303\241t", nullptr));
         label_15->setText(QString());
-        pushButton_2->setText(QCoreApplication::translate("MainWindow", "\304\220\304\203ng K\303\275", nullptr));
-        id_3->setPlaceholderText(QCoreApplication::translate("MainWindow", "H\341\273\215 v\303\240 t\303\252n", nullptr));
-        loginStatus_2->setText(QCoreApplication::translate("MainWindow", "C\303\241c tr\306\260\341\273\235ng kh\303\264ng \304\221\306\260\341\273\243c \304\221\341\273\203 Tr\341\273\221ng", nullptr));
+        registerBtn->setText(QCoreApplication::translate("MainWindow", "\304\220\304\203ng K\303\275", nullptr));
+        name->setPlaceholderText(QCoreApplication::translate("MainWindow", "H\341\273\215 v\303\240 t\303\252n", nullptr));
+        loginStatus_2->setText(QString());
         label_16->setText(QCoreApplication::translate("MainWindow", "Kh\303\241ch H\303\240ng th\306\260\341\273\235ng xuy\303\252n", nullptr));
         label_17->setText(QCoreApplication::translate("MainWindow", "ShopManager", nullptr));
-        id_4->setPlaceholderText(QCoreApplication::translate("MainWindow", "\304\220\341\273\213a ch\341\273\211", nullptr));
+        email->setPlaceholderText(QCoreApplication::translate("MainWindow", "Email", nullptr));
         label_18->setText(QString());
         label_19->setText(QCoreApplication::translate("MainWindow", "\304\220\303\243 c\303\263 t\303\240i kho\341\272\243n? ", nullptr));
-        pw_3->setPlaceholderText(QCoreApplication::translate("MainWindow", "M\341\272\255t kh\341\272\251u", nullptr));
+        password->setPlaceholderText(QCoreApplication::translate("MainWindow", "M\341\272\255t kh\341\272\251u", nullptr));
         returnLoginBtn->setText(QCoreApplication::translate("MainWindow", "\304\220\304\203ng Nh\341\272\255p", nullptr));
+        re_password->setPlaceholderText(QCoreApplication::translate("MainWindow", "Nh\341\272\255p l\341\272\241i m\341\272\255t kh\341\272\251u", nullptr));
     } // retranslateUi
 
 };

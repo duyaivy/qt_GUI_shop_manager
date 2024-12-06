@@ -1,50 +1,64 @@
 #include <QApplication>
 #include <qstring.h>
 #include "mainwindow.h"
-#include"admin.h"
-#include"invoicedetail.h"
-#include"product.h"
-#include"invoice.h"
-#include"global.h"
-// #include "ui_mainwindow.h"
+#include "admin.h"
+#include "global.h"
+#include"modalview.h"
+#include"modalviews.h"
+#include"user.h"
 using namespace std;
-
-int person::nextID = 1;
-int product::nextPrdID = 1;
-int invoiceDetail::nextDetailID = 1;
-int invoice::nextInvoiceID = 1;
-std::vector<person*> person::obj;
-//tao con tro currentPerson
-person* curPerson = nullptr;
-
+int Product::nextPrdID = 1;
+int Employee::nextEmpID = 0;
+int Customer::nextCusID = 1;
+int InvoiceDetail::nextDetailID = 1;
+int Invoice::nextInvoiceID = 1;
+int Notify::nextID = 1;
+string Notify::currentEmp = "EP00000";
+Employee *curEmployee = nullptr;
+Employee *selectEmp = nullptr;
+Person *onLogin = nullptr;
+Customer *curCustomer = nullptr;
+Customer *selectCus = nullptr;
+Person *selectPer = nullptr;
+Invoice *selectInv = nullptr;
+Product *curProduct = nullptr;
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
     MainWindow mainWindow;
-    person p1("Tran Tam Nhu", "123456789", "john@example.commmmmmmm", "123456", "admin");
-    product* pl = new product("Laptop A", "Brand A", "Detail A", 1000, 10);
-    product* p2 = new product("Laptop c", "Brand A", "Detail B", 1500, 5);
-    product* p3 = new product("Gaming Laptop", "Brand A", "Detail B", 2500, 5);
+    Employee *e = new Employee("admin","000000","admin@email.com","123456","MANAGER",false,"12/10/2024");
+    Person::obj.push_back(e);
+    setUpDataBase();
+    curEmployee = dynamic_cast<Employee*>(Person::obj[10]);
+    curCustomer = dynamic_cast<Customer*>(Person::obj[3]);
+    onLogin = Person::obj[10];
+    // for(Person *p : Person::obj){
+    //     qDebug()<<p->getPhone()<<" pw: "<<p->getPass()<<p->getRole();
+    // }
+    // string &dd = curCustomer->getCart()[0];
+    // InvoiceDetail::getDetailByID(dd)->deleteDetail();
+        // mainWindow.show();
 
-    // invoiceDetail::loadFromFile("D:\\QUOCDUY\\qt_pbl2\\shop_manager\\detail.csv");
-    // invoice::loadFromFile("D:\\QUOCDUY\\qt_pbl2\\shop_manager\\invoice.csv");
-    // invoice::getInvoiceByID("IN00002")->setQuantityInvoice("DE00002", 12);
-    // invoice::getInvoiceByID("IN00001")->setQuantityInvoice("DE00003", 32);
-    // invoice::getInvoiceByID("IN00001")->deleteInvoice();
-    // cout<<invoice::getInvoiceByID("IN00001")->getTotalPrice();
+    admin adminHome;
+    adminHome.show();
+    // selectPer = Person::obj[3];
+    // onLogin = Person::obj[0];
+
+    // user userHome;
+    // userHome.show();
 
 
+    // modalViews *md = new modalViews;
+    // curProduct = Product::prd[2];
 
-    // mainWindow.getptr()->label_14->setText(QString::fromStdString(product::getPrdByID("PD00001")->getPrdName()));
-    // invoice::display();
+    // // md->setupPrdAdminPage(curProduct);
+    // md->setStackWidget(0);
+    // md->setupPrdUserPage(curProduct);
+    // string z = "IN00003";
+    // Invoice *i = Invoice::getInvoiceByID(z);
+    // md->setupInvoiceView(z);
+    // md->setAttribute(Qt::WA_DeleteOnClose);
+    // md->show();
 
-    // OK invoiceDetail::getDetailByID("DE00003")->setQuantity(10);
-
-    // invoiceDetail::saveToFile("D:\\QUOCDUY\\qt_pbl2\\shop_manager\\detail.csv");
-    // invoice::saveToFile("D:\\QUOCDUY\\qt_pbl2\\shop_manager\\invoice.csv");
-
-    // admin adminHome;
-    // adminHome.show();
-    mainWindow.show();
     return app.exec();
 }
