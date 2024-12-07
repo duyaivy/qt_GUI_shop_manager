@@ -736,8 +736,6 @@ D:/QUOCDUY/qt_pbl2/shop_manager/mainwindow.h
  mdp:D:/QUOCDUY/qt_pbl2/shop_manager/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/shop_manager_autogen/moc_predefs.h
  mdp:D:/QUOCDUY/qt_pbl2/shop_manager/mainwindow.h
  mdp:D:/QUOCDUY/qt_pbl2/shop_manager/person.h
-D:/QUOCDUY/qt_pbl2/shop_manager/invoice.h
-D:/QUOCDUY/qt_pbl2/shop_manager/person.h
 D:/QUOCDUY/qt_pbl2/shop_manager/regis.cpp
  uic:ui_regis.h
 D:/QUOCDUY/qt_pbl2/shop_manager/register.h
@@ -1092,8 +1090,10 @@ D:/QUOCDUY/qt_pbl2/shop_manager/register.h
  mdp:C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h
  mdp:D:/QUOCDUY/qt_pbl2/shop_manager/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/shop_manager_autogen/moc_predefs.h
  mdp:D:/QUOCDUY/qt_pbl2/shop_manager/register.h
-D:/QUOCDUY/qt_pbl2/shop_manager/invoice.cpp
+D:/QUOCDUY/qt_pbl2/shop_manager/invoice.h
+D:/QUOCDUY/qt_pbl2/shop_manager/person.h
 D:/QUOCDUY/qt_pbl2/shop_manager/person.cpp
+D:/QUOCDUY/qt_pbl2/shop_manager/invoice.cpp
 D:/QUOCDUY/qt_pbl2/shop_manager/register.cpp
  uic:ui_register.h
 D:/QUOCDUY/qt_pbl2/shop_manager/main.cpp
