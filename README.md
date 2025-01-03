@@ -7,6 +7,7 @@ Dự án Quản lí của hàng laptop(ShopManager)
 Sinh viên thực hiện:
 1. Nguyễn Quốc Duy.
 2. Trần Tâm Như.
+   
 Giảng viên hướng dẫn: Ths Mai Văn Hà.
 
 1. Nội dung chương trình: gồm 2 phần:
