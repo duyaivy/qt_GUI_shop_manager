@@ -11,28 +11,28 @@ Giảng viên hướng dẫn: Ths Mai Văn Hà.
 
 1. Nội dung chương trình: gồm 2 phần:
 - Xử lí dữ liệu bằng C++ gồm các file:
-        ●	user.h
-        ●	product.h
-        ●	person.h
-        ●	notify.h
-        ●	invoicedetail.h
-        ●	invoice.h
-        ●	global.h
-        ●	employee.h
-        ●	customer.h
-        ●	admin.h
-        ●	vector.h
-        ●	user.cpp
-        ●	product.cpp
-        ●	person.cpp
-        ●	notify.cpp
-        ●	invoicedetail.cpp
-        ●	invoice.cpp
-        ●	global.cpp
-        ●	employee.cpp
-        ●	customer.cpp
-        ●	admin.cpp
-        ●	vector.cpp
+        1.	user.cpp
+        2.	product.cpp
+        3.	person.cpp
+        4.	notify.cpp
+        5.	invoicedetail.cpp
+        6.	invoice.cpp
+        7.	global.cpp
+        8.	employee.cpp
+        9.	customer.cpp
+        10.	admin.cpp
+        11.	vector.cpp
+        12.	user.h
+        13.	product.h
+        14.	person.h
+        15.	notify.h
+        16.	invoicedetail.h
+        17.	invoice.h
+        18.	global.h
+        19.	employee.h
+        20.	customer.h
+        21.	admin.h
+        22.	vector.h
 - Phần giao diện là các file còn lại.
 2. Cách cài đặt và chạy chương trình: dự án sử dụng ngôn ngữ lập trình C++ kết hợp với Qt để làm giao diện:
   - B1: Cài đăt Qt Creator 14.0.1(Enterprise).
