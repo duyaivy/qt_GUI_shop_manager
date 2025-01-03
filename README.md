@@ -1,6 +1,9 @@
 Trường Đại học Bách Khoa - Đại học Đà Nẵng
+
 Khoa Công Nghệ Thông Tin
+
 Dự án Quản lí của hàng laptop(ShopManager)
+
 Sinh viên thực hiện:
 1. Nguyễn Quốc Duy.
 2. Trần Tâm Như.
