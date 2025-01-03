@@ -23,25 +23,40 @@ MainWindow::~MainWindow()
     delete ui;
 }
 void MainWindow::on_pushButton_clicked(){
-    person p;
-    int isLogin = person::login((ui->id->text()).toStdString(),(ui->pw->text()).toStdString(),&p);
+
+    Person *curP = nullptr;
+
+    int isLogin = Person::login((ui->id->text()).toStdString(),(ui->pw->text()).toStdString(), curP);
     if(isLogin){
         ui->loginStatus->setText("Đăng Nhập Thành Công!");
-
-        if(p.getRole() == "admin"){
-            this->close();
-            curPerson = &p;
-
-            admin *adminHome = new admin();
-            adminHome->setAttribute(Qt::WA_DeleteOnClose); // Đảm bảo adminHome tự hủy khi đóng
-            adminHome->show();
+        {
+            // xu li sua dang nhap
+            if(curP->getRole() == "CUSTOMER"){
+                curCustomer = dynamic_cast<Customer*>(curP);
+                onLogin = curCustomer;
+                user *userHome = new user();
+                userHome->setAttribute(Qt::WA_DeleteOnClose);
+                userHome->show();
+                this->close();
+            }else{
+                curEmployee = dynamic_cast<Employee*>(curP);
+                Notify::currentEmp = curEmployee->getID();
+                onLogin = curEmployee;
+                this->close();
+                admin *adminHome = new admin();
+                adminHome->setAttribute(Qt::WA_DeleteOnClose);
+                adminHome->show();
+            }
         }
 
     }else{
-      ui->loginStatus->setText("Sai ID hoặc Mật Khẩu!");
-    }
 
+        ui->loginStatus->setText("Sai ID hoặc Mật Khẩu!");
+    }
 }
+
+
+
 void MainWindow::closeApp()
 {
     this->close();
@@ -61,5 +76,26 @@ Ui::MainWindow* MainWindow::getptr(){
     return ui;
 }
 
-
+void MainWindow::on_registerBtn_clicked(){
+    string email = (ui->email->text()).toStdString();
+    string address = (ui->address->text()).toStdString();
+    string phone = (ui->phone->text()).toStdString();
+    string name =   (ui->name->text()).toStdString();
+    string password = (ui->password->text()).toStdString();
+    if(email=="" || name=="" ||address==""||phone =="" || password==""){
+        ui->loginStatus_2->setText("Các trường không được để trống");
+    }else if(password!= (ui->re_password->text()).toStdString()){
+        ui->loginStatus_2->setText("Mật khẩu nhập lại không khớp");
+    }else{
+        Customer *cus = new Customer(name,phone,email,password,false,address);
+        Person::obj.push_back(cus);
+        ui->loginStatus_2->setText("Đăng ký Khách Hàng thành công!");
+        ui->address->setText("");
+        ui->password->setText("");
+        ui->phone->setText("");
+        ui->name->setText("");
+        ui->email->setText("");
+        ui->re_password->setText("");
+    }
+}
 

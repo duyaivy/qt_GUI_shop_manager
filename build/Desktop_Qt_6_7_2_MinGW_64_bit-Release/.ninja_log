@@ -1,0 +1,24 @@
+# ninja log v6
+18	2531	7576189782993823	shop_manager_autogen/timestamp	9c61e8ee89c89d9f
+18	2531	7576189782993823	shop_manager_autogen/mocs_compilation.cpp	9c61e8ee89c89d9f
+18	2531	7576189782993823	D:/QUOCDUY/qt_pbl2/shop_manager/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/shop_manager_autogen/timestamp	9c61e8ee89c89d9f
+18	2531	7576189782993823	D:/QUOCDUY/qt_pbl2/shop_manager/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/shop_manager_autogen/mocs_compilation.cpp	9c61e8ee89c89d9f
+2538	3717	7576189795959366	shop_manager_autogen/EWIEGA46WW/qrc_resourse.cpp	6b374aac72441ead
+2538	3717	7576189795959366	D:/QUOCDUY/qt_pbl2/shop_manager/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/shop_manager_autogen/EWIEGA46WW/qrc_resourse.cpp	6b374aac72441ead
+3717	10342	7576189796076757	CMakeFiles/shop_manager.dir/shop_manager_autogen/mocs_compilation.cpp.obj	667d69f26e837405
+3725	10408	7576189796159614	CMakeFiles/shop_manager.dir/person.cpp.obj	375b6de9863c995a
+3738	10541	7576189796284911	CMakeFiles/shop_manager.dir/invoicedetail.cpp.obj	961bec5f041ba922
+3729	12669	7576189796198242	CMakeFiles/shop_manager.dir/master.cpp.obj	ddb793328aca0256
+3742	13445	7576189796324366	CMakeFiles/shop_manager.dir/product.cpp.obj	9a88c8eb0848093f
+3733	13844	7576189796238980	CMakeFiles/shop_manager.dir/invoice.cpp.obj	9214a99ea0d2c091
+3750	13940	7576189796408339	CMakeFiles/shop_manager.dir/global.cpp.obj	96d878fe2567a1e3
+3721	14607	7576189796113652	CMakeFiles/shop_manager.dir/main.cpp.obj	3d5e3238bbe01f2d
+3755	18464	7576189796450575	CMakeFiles/shop_manager.dir/employee.cpp.obj	dd316b3d523af6ec
+13445	19637	7576189893354802	CMakeFiles/shop_manager.dir/notify.cpp.obj	60206329356ed782
+10342	20074	7576189862331059	CMakeFiles/shop_manager.dir/customer.cpp.obj	bf6868a14a5dad1a
+10408	22220	7576189862981051	CMakeFiles/shop_manager.dir/modalview.cpp.obj	b57807720b9f03c1
+10542	25038	7576189864323056	CMakeFiles/shop_manager.dir/modalviews.cpp.obj	18d396edd801d054
+3746	25333	7576189796365616	CMakeFiles/shop_manager.dir/admin.cpp.obj	fae849bdd9ca01f1
+12669	25715	7576189885599917	CMakeFiles/shop_manager.dir/user.cpp.obj	ab185efe561573ab
+13844	34791	7576189897341615	CMakeFiles/shop_manager.dir/shop_manager_autogen/EWIEGA46WW/qrc_resourse.cpp.obj	57a8f5a6367a4d47
+34791	35593	7576190106814920	shop_manager.exe	e83beb5652e2cc83

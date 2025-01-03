@@ -161,10 +161,11 @@ font-family: Arial;
       <property name="styleSheet">
        <string notr="true">background-color: #e8f0fd;
 border-radius: 2px;
-border: 1px solid #000;</string>
+border: 1px solid #000;
+padding-left: 10px;</string>
       </property>
       <property name="placeholderText">
-       <string>Nhập ID</string>
+       <string>Nhập SĐT</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_10">
@@ -251,7 +252,7 @@ font-weight5700;
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: #e8f0fd;
+       <string notr="true">padding-left: 10px;background-color: #e8f0fd;
 border-radius: 2px;
 border: 1px solid #000;</string>
       </property>
@@ -398,11 +399,11 @@ border: none;</string>
      <zorder>signUpBtn</zorder>
     </widget>
     <widget class="QWidget" name="page_2">
-     <widget class="QLineEdit" name="id_2">
+     <widget class="QLineEdit" name="phone">
       <property name="geometry">
        <rect>
         <x>620</x>
-        <y>310</y>
+        <y>280</y>
         <width>121</width>
         <height>41</height>
        </rect>
@@ -425,11 +426,11 @@ padding:5px;</string>
        <string>Số điện thoại</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="pw_2">
+     <widget class="QLineEdit" name="address">
       <property name="geometry">
        <rect>
         <x>620</x>
-        <y>360</y>
+        <y>330</y>
         <width>301</width>
         <height>41</height>
        </rect>
@@ -452,14 +453,14 @@ padding:5px;</string>
        <enum>QLineEdit::EchoMode::Normal</enum>
       </property>
       <property name="placeholderText">
-       <string>Email</string>
+       <string>Địa chỉ</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_12">
       <property name="geometry">
        <rect>
         <x>630</x>
-        <y>530</y>
+        <y>540</y>
         <width>291</width>
         <height>21</height>
        </rect>
@@ -521,7 +522,7 @@ border-radius: 30px;</string>
       <property name="geometry">
        <rect>
         <x>620</x>
-        <y>130</y>
+        <y>120</y>
         <width>271</width>
         <height>51</height>
        </rect>
@@ -541,7 +542,7 @@ color:rgb(12, 5, 230)</string>
       <property name="geometry">
        <rect>
         <x>730</x>
-        <y>480</y>
+        <y>500</y>
         <width>91</width>
         <height>31</height>
        </rect>
@@ -575,11 +576,11 @@ color:rgb(12, 5, 230)</string>
        <bool>true</bool>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_2">
+     <widget class="QPushButton" name="registerBtn">
       <property name="geometry">
        <rect>
         <x>830</x>
-        <y>480</y>
+        <y>500</y>
         <width>91</width>
         <height>31</height>
        </rect>
@@ -603,11 +604,11 @@ color: white;
        <string>Đăng Ký</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="id_3">
+     <widget class="QLineEdit" name="name">
       <property name="geometry">
        <rect>
         <x>620</x>
-        <y>260</y>
+        <y>230</y>
         <width>301</width>
         <height>41</height>
        </rect>
@@ -631,7 +632,7 @@ padding:5px;</string>
       <property name="geometry">
        <rect>
         <x>620</x>
-        <y>450</y>
+        <y>470</y>
         <width>221</width>
         <height>30</height>
        </rect>
@@ -640,14 +641,14 @@ padding:5px;</string>
        <string notr="true">background-color: transparent;color:red;</string>
       </property>
       <property name="text">
-       <string>Các trường không được để Trống</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_16">
       <property name="geometry">
        <rect>
         <x>620</x>
-        <y>180</y>
+        <y>170</y>
         <width>271</width>
         <height>51</height>
        </rect>
@@ -683,11 +684,11 @@ font-weight:700;
        <string>ShopManager</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="id_4">
+     <widget class="QLineEdit" name="email">
       <property name="geometry">
        <rect>
         <x>750</x>
-        <y>310</y>
+        <y>280</y>
         <width>171</width>
         <height>41</height>
        </rect>
@@ -704,7 +705,7 @@ border: 1px solid #000;
 padding:5px;</string>
       </property>
       <property name="placeholderText">
-       <string>Địa chỉ</string>
+       <string>Email</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_18">
@@ -749,11 +750,11 @@ font-weight:500;</string>
        <string>Đã có tài khoản? </string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="pw_3">
+     <widget class="QLineEdit" name="password">
       <property name="geometry">
        <rect>
         <x>620</x>
-        <y>410</y>
+        <y>380</y>
         <width>301</width>
         <height>41</height>
        </rect>
@@ -800,24 +801,52 @@ border: none;</string>
        <string>Đăng Nhập</string>
       </property>
      </widget>
+     <widget class="QLineEdit" name="re_password">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>430</y>
+        <width>301</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #e8f0fd;
+border-radius: 2px;
+border: 1px solid #000;
+padding:5px;</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::EchoMode::Password</enum>
+      </property>
+      <property name="placeholderText">
+       <string>Nhập lại mật khẩu</string>
+      </property>
+     </widget>
      <zorder>label_18</zorder>
      <zorder>label_13</zorder>
-     <zorder>id_2</zorder>
-     <zorder>pw_2</zorder>
+     <zorder>phone</zorder>
+     <zorder>address</zorder>
      <zorder>label_12</zorder>
      <zorder>inforSV_2</zorder>
      <zorder>label_14</zorder>
      <zorder>closeBtn_2</zorder>
      <zorder>label_15</zorder>
-     <zorder>pushButton_2</zorder>
-     <zorder>id_3</zorder>
+     <zorder>registerBtn</zorder>
+     <zorder>name</zorder>
      <zorder>loginStatus_2</zorder>
      <zorder>label_16</zorder>
      <zorder>label_17</zorder>
-     <zorder>id_4</zorder>
+     <zorder>email</zorder>
      <zorder>label_19</zorder>
-     <zorder>pw_3</zorder>
+     <zorder>password</zorder>
      <zorder>returnLoginBtn</zorder>
+     <zorder>re_password</zorder>
     </widget>
    </widget>
   </widget>
@@ -825,16 +854,16 @@ border: none;</string>
  <tabstops>
   <tabstop>id</tabstop>
   <tabstop>pw</tabstop>
-  <tabstop>id_3</tabstop>
-  <tabstop>id_2</tabstop>
-  <tabstop>id_4</tabstop>
-  <tabstop>pw_2</tabstop>
-  <tabstop>pw_3</tabstop>
+  <tabstop>name</tabstop>
+  <tabstop>phone</tabstop>
+  <tabstop>email</tabstop>
+  <tabstop>address</tabstop>
+  <tabstop>password</tabstop>
   <tabstop>closeBtn_2</tabstop>
   <tabstop>pushButton</tabstop>
   <tabstop>returnLoginBtn</tabstop>
   <tabstop>closeBtn</tabstop>
-  <tabstop>pushButton_2</tabstop>
+  <tabstop>registerBtn</tabstop>
   <tabstop>signUpBtn</tabstop>
   <tabstop>inforSV</tabstop>
   <tabstop>inforSV_2</tabstop>
